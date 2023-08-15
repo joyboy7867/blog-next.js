@@ -45,13 +45,7 @@ let data;
     </div>;
 }
 
-export async function getServerSideProps(context){
-    
-    return{
-        props:{harry:"good bnoy"}
-        
-    }
-}
+
 
 
 
