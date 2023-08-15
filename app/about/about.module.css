@@ -1,0 +1,23 @@
+.abouts{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: left;
+}
+.h2{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+@media(max-width:993px){
+  .abouts{
+    width: 90%;
+    margin-left: 30px;
+  }
+  .h2{
+    margin-top: 15%;
+  }
+  .h1{
+    margin-top: 15%;
+  }
+}

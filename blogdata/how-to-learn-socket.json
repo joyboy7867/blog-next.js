@@ -1,0 +1,5 @@
+{
+    "title":"how to learn Socket.io in 2023",
+    "content":"Although Socket.IO indeed uses WebSocket for transport when possible, it adds additional metadata to each packet. That is why a WebSocket client will not be able to successfully connect to a Socket.IO server, and a Socket.IO client will not be able to connect to a plain WebSocket server either. // WARNING: the client will NOT be able to connect! const socket = io If you are looking for a plain WebSocket server, please take a look at ws or µWebSockets.js. There are also discussions for including a WebSocket server in the Node.js core. On the client-side, you might be interested in the robust-websocket package.",
+    "slug":"how-to-learn-socket"
+}

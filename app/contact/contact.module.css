@@ -1,0 +1,37 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding: 5%;
+    border-radius: 10px;
+    
+}
+.input{
+    margin-bottom: 12%;
+    height: 3em;
+    border-radius: 30px;
+    text-align: center;
+}
+.btn{
+    width: 50%;
+    height: 3em;
+    border-radius: 10px;
+    margin-left: 26%;
+}
+.heading{
+    margin-bottom: 5%;
+    font-family:cursive;
+    font-size: xx-large;
+}
+@media(max-width:993px){
+    .form{
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 30%;
+    }
+}
